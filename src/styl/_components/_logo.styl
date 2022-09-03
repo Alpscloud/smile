@@ -1,7 +1,31 @@
 .logo
-	display inline-block
+	display inline-flex
+	align-items center
+	justify-content flex-start
+	flex-wrap nowrap
+	margin-right 30px
 	img
 		display block
-		max-width 100px
+		flex none
+		width 67px
+		margin-right 30px
+		
+	&-title
+		text-transform uppercase
+		color $accent-color
+		font 1.875em $ExBold
+		line-height 1
+		
 	&:hover
 		opacity .75
+		
+	&-wrapper
+		display flex
+		flex-wrap nowrap
+		align-items center
+		
+	&-description
+		text-transform uppercase
+		color $light-text-color
+		line-height 1.25
+		

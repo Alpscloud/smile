@@ -1,0 +1,48 @@
+.articles-cards
+	margin-left -50px
+	margin-right -50px
+	
+	&__homepage
+		
+		.article-card
+			&__content
+				border-right 1px solid $accent-color
+				padding 0 50px 35px
+			&__thumbnail
+				width calc(100% - 100px)
+				margin 0 auto 45px auto
+				padding-top 45%
+			&__wrapper
+				padding-left 0
+				padding-right 0
+				margin-bottom 75px
+				&:nth-child(4n)
+					.article-card__content
+						border-right none
+				
+	
+.article-card
+	height 100%
+	display flex
+	flex-direction column
+	&__content
+		flex 1
+	&__wrapper
+		padding-left 50px
+		padding-right 50px
+		margin-bottom 110px
+	&__thumbnail
+		padding-top 56.25%
+		margin-bottom 45px
+	&__title
+		font 1.315em $Med
+		margin-bottom 12px
+		a
+			color inherit
+			&:hover
+				color $accent-color
+				
+.article-date
+	color $light-text-color
+	text-transform uppercase
+	font-size 14px

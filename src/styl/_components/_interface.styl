@@ -1,0 +1,35 @@
+.socials
+	font-size 0
+	white-space nowrap
+	li
+		display inline-block
+		margin-right 40px
+		&:last-child
+			margin-right 0
+	a
+		display block
+		width 20px
+		height 20px
+		svg
+			svg()
+			fill $secondary-color
+		&:hover
+			svg
+				fill $accent-color
+				
+.langs
+	white-space nowrap
+	margin-left 40px
+	li
+		display inline-block
+		margin-right 10px
+		&:last-child
+			margin-right 0
+			
+		&.current-lang
+			a, span
+				color $accent-color
+	a
+		font 14px $ExBold
+		color $text-color
+		text-transform uppercase

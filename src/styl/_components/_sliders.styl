@@ -18,6 +18,70 @@
 			visibility hidden
 			pointer-events none
 			
+.slider-pagination
+	text-align center
+	position relative
+	bottom auto
+	top auto
+	margin-top 50px
+	font-size 0
+	.swiper-pagination-bullet
+		width 12px
+		height 12px
+		background-color #D9D9D9
+		margin-right 40px
+		&:last-child
+			margin-right 0
+		&-active
+			background-color $accent-color
+			
 .swiper-container
 	*
 		box-sizing border-box
+		
+
+.promo-slider
+	.swiper-wrapper
+		align-items stretch
+	.swiper-slide
+		height auto
+		transition all .23s ease-in-out
+		opacity 0
+		&-active
+			opacity 1
+		
+.promo-slide
+	height 100%
+	padding-left 60px
+	.row
+		height 100%
+	&__thumbnail
+		flex 1
+		display block
+		padding-top 0
+		border-radius 500px 0 0 0
+		&:hover
+			border-radius 0
+
+	&__content
+		width 100%
+		max-width 600px
+		flex 1
+		margin-right 60px
+		line-height 1.6
+		display flex
+		flex-direction column
+		justify-content space-between
+		
+	&__text
+		margin-bottom 80px
+		h1,h2,h3
+			font 4em $Med
+			line-height 116%
+			margin-bottom 60px
+			color $accent-color
+			text-transform uppercase
+		a
+			color inherit
+			&:hover
+				color $secondary-color
