@@ -1,0 +1,24 @@
+.aside
+	width 270px
+	flex none
+	div
+		width 100% !important
+	
+	&-nav
+		li
+			margin-bottom 50px
+			&:last-child
+				margin-bottom 0
+			&.current-menu-item
+				a
+					padding-left 11px
+					border-left 19px solid $secondary-color
+				
+		a
+			text-transform uppercase
+			color $text-color
+			font 24px $Med
+			display inline-block
+			&:hover
+				color $accent-color
+				

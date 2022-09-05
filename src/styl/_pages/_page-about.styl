@@ -1,0 +1,67 @@
+.page-inner
+	.article
+		max-width 870px
+		margin 0 auto
+		
+	.breadcrumbs
+		margin-bottom 30px
+		
+
+.advantages
+	width 1080px
+	margin-left -40px
+	margin-right -40px
+	margin-bottom -60px
+	margin-top 70px
+	position relative
+	left -50px
+	
+.advantage
+	height 100%
+	border 1px solid $accent-color
+	border-radius 0 50px 0 0
+	padding 36px 20px 36px 50px
+	position relative
+	&:before
+		pseudo()
+		position absolute
+		left 50px
+		top -12.5px
+		z-index 1
+		width 25px
+		height 25px
+		background url('../img/icons/svg/heart.svg') 50% no-repeat / contain
+		
+	h2,h3,h4
+		text-transform uppercase
+		font 24px $Med
+		margin-bottom 20px
+		
+	&__wrapper
+		padding-left 40px
+		padding-right 40px
+		margin-bottom 60px
+		
+
+.team
+	margin-bottom -80px
+	margin-top 30px
+	&-member
+		max-width 240px
+		&__wrapper
+			margin-bottom 80px
+		img
+			display block
+			width 200px
+			height 200px
+			margin-bottom 40px
+			border-radius 50%
+			object-fit cover
+		&__name
+			text-transform uppercase
+			font 20px $Med
+			
+
+.page-content
+	.partners
+		justify-content flex-start

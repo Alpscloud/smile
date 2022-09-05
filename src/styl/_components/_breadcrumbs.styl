@@ -1,12 +1,23 @@
 .breadcrumbs
-	&__item
+	margin-bottom 18px
+	li
 		display inline-block
-		margin-right 15px
-		position relative
+		font 13px $Med
+		text-transform uppercase
+		&:after
+			content '>'
+			color $light-text-color
+			display inline-block
+			transform translateY(-1px)
 		&:last-child
-			margin-right 0
-	&__link
-		display block
-		color $text-color
-		&.is-active
+			&:after
+				display none
+	a
+		color $light-text-color
+		&:hover
 			color $accent-color
+		
+		
+	.is-active
+		color $secondary-color
+		text-transform uppercase

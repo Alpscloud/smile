@@ -1,0 +1,124 @@
+.categories-projects
+	flex 1
+	display flex
+	justify-content space-between
+	margin-left -10px
+	margin-right -10px
+	li
+		padding-left 10px
+		padding-right 10px
+		max-width 160px
+	a, span.is-active
+		display block
+		text-transform uppercase
+		font 18px $ExBold
+		line-height 28px
+		color $text-color
+	img
+		display block
+		height 75px
+		width auto
+		margin-bottom 33px
+		
+	a:hover
+		color $accent-color
+	
+	span.is-active
+		color #c4c4c4
+		img
+			filter brightness(0) saturate(100%) invert(76%) sepia(66%) saturate(0%) hue-rotate(85deg) brightness(94%) contrast(95%)
+			
+.categories-description + .categories-projects
+	padding-left 50px
+	
+
+
+.project-card
+	height 100%
+	color $basic-black-color
+	display flex
+	flex-direction column
+	.article-card__thumbnail
+		margin-bottom 0
+		flex none
+		padding-top 85%
+		
+	&__content
+		border-width 0 2px 2px 2px
+		border-style solid
+		border-color $accent-color
+		padding 30px 30px 60px 30px
+		flex 1
+		display flex
+		flex-direction column
+
+	&__title
+		text-transform uppercase
+		font 24px $ExBold
+		line-height 36px
+		margin-bottom 45px
+		flex 1
+		
+		
+		a
+			color inherit
+			&:hover
+				color $accent-color
+	&__wrapper
+		padding-left 25px
+		padding-right 25px
+		margin-bottom 60px
+		
+.projects-cards
+	margin-left -25px
+	margin-right -25px
+	
+.project-category
+	color $secondary-color
+	text-transform uppercase
+	margin-bottom 20px
+	font 14px $Med
+	
+
+
+.page-project
+	position relative
+	.article
+		max-width 870px
+		margin 0 auto
+		
+		
+	.aside
+		position absolute
+		top 0
+		left 0
+		
+	.breadcrumbs
+		margin-bottom 70px
+		
+	.support
+		padding-top $gutter-top
+		
+.page-content
+	display flex
+	flex-wrap nowrap
+	position relative
+	
+
+	
+.project-support-link
+	margin-bottom 80px
+	&:last-child
+		margin-bottom 0
+	a
+		display inline-block
+		text-transform uppercase
+		color #424241
+		font 18px $ExBold
+		&:hover
+			color $accent-color
+	img
+		display block
+		height 60px
+		margin-bottom 25px
+		width auto

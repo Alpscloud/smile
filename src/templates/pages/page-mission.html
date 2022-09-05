@@ -1,0 +1,143 @@
+{% include '../parts/head.html' %}
+<body>
+	
+	<!-- CONTENT WRAPPER -->
+	<div class="content__wrapper">
+
+		<!-- Header -->
+		{% include '../parts/sections/header.html' %}
+		<!-- //Header -->
+
+		<!-- Main -->
+		<main class="main page-with-sidebar page-inner page-article">
+
+			<section class="sect__page">
+
+				<!-- Breadcrumbs -->
+				<div class="breadcrumbs container">
+					<nav  aria-label="Breadcrumbs" itemprop="breadcrumb">
+						<ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+
+							<li  itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+								<meta content="1" itemprop="position">
+								<a href="index.html" rel="home" aria-label="Главная" itemtype="https://schema.org/Thing" itemprop="item">
+									<span itemprop="name">
+										<span>Головна</span>
+									</span>
+								</a>
+							</li>
+
+
+
+							<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+								<meta content="2" itemprop="position">
+								<span class="is-active" itemtype="https://schema.org/Thing" itemprop="item">
+									<span itemprop="name">Місія та цінності</span>
+								</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- //Breadcrumbs -->
+
+				<div class="container">
+
+					<div class="page-content gutter-bottom">
+						{% include '../parts/sections/aside.html' %}
+
+						<article class="article">
+							<header class="article-header">
+
+								<h1 class="title">
+									Місія та цінності
+									{% include '../parts/components/svg/title-arrow.svg' %}
+								</h1>
+
+								<h2 class="article-title">РЯТУЄМО ЖИТТЯ І ТВОРИМО ІСТОРІЮ РАЗОМ ІЗ ВАМИ</h2>
+
+							</header>
+
+							<div class="content">
+								<p>Ми працюємо, щоб зробити Збройні сили України ефективнішими. Купуємо техніку, що допомагає зберегти життя наших військових і робить дії армійців у протидії ворогові точнішими. Реалізуємо спрямовані на реінтеграцію ветеранів проєкти та впливаємо на суспільні процеси, щоб посилити обороноздатність країни. Розробляємо аналітику в оборонній сфері, сприяємо розбудові Сил територіальної оборони ЗСУ.</p>
+							</div>
+
+							<div class="advantages row align-horisontal-start">
+								<div class="advantage__wrapper col-w-50">
+									<div class="advantage">
+										<h3>ВІДПОВІДАЛЬНІСТЬ</h3>
+										<p>Спільний успіх складається з індивідуальних результатів. Кожен виконує власну роботу якісно та вчасно, халтура неприпустима. Якщо роботу неможливо виконати вчасно – повідомляємо до того, як це стає проблемою. Пам’ятаємо: рішення, вчинок, слово кожного впливає на репутацію фонду та колег.</p>
+									</div>
+								</div>
+
+								<div class="advantage__wrapper col-w-50">
+									<div class="advantage">
+										<h3>ВЗАЄМОВИРУЧКА</h3>
+										<p>У нас спільні цілі, тому ми за необхідності охоче допомагаємо один одному з роботою. Ми не перекладаємо роботу на інших, не зловживаємо ресурсами та часом колег.</p>
+									</div>
+								</div>
+
+								<div class="advantage__wrapper col-w-50">
+									<div class="advantage">
+										<h3>ПРИСТРАСТЬ</h3>
+										<p>Фонд – це важка праця, але точно не чергове працевлаштування: рівень оплати та комфорту турбують нас навіть не в другу чергу. Кожеш із нас довів це власним прикладом.</p>
+									</div>
+								</div>
+
+								<div class="advantage__wrapper col-w-50">
+									<div class="advantage">
+										<h3>ПРОСТОТА</h3>
+										<p>Не вкладаємо прихованих сенсів у слова та вчинки, не манікулюємо, не брешемо один одному. Дискутуємо просто і вчасно, висловлюємо думки прямо та чесно. Так ми оберігаємо здорові стосунки у фонді.</p>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+
+				</div>
+				<!-- //container -->
+			</section>
+			<!-- //article -->
+
+			{% include '../parts/components/support.html' %}
+
+			<section class="sect__another-articles gutter-bottom">
+				<h2 class="title container">
+					Ще по цій темі
+					{% include '../parts/components/svg/title-arrow.svg' %}
+				</h2>
+
+				<div class="container">
+					<div class="articles-cards row align-horisontal-start">
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+					</div>
+				</div>
+				<!-- //container -->
+			</section>
+
+			
+
+
+
+
+		</main>
+		<!-- //Main -->
+
+		<!-- Footer -->
+		{% include '../parts/sections/footer.html' %}
+		<!-- //Footer -->
+
+	</div>
+	<!-- //CONTENT WRAPPER -->
+
+	{% include '../parts/scripts.html' %}
+
+</body>
+
+</html>

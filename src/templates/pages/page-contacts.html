@@ -1,0 +1,87 @@
+{% include '../parts/head.html' %}
+<body>
+	
+	<!-- CONTENT WRAPPER -->
+	<div class="content__wrapper">
+
+		<!-- Header -->
+		{% include '../parts/sections/header.html' %}
+		<!-- //Header -->
+
+		<!-- Main -->
+		<main class="main">
+			<section class="sect__contacts gutter-bottom">
+				<div class="container">
+					<!-- Breadcrumbs -->
+					<div class="breadcrumbs">
+						<nav  aria-label="Breadcrumbs" itemprop="breadcrumb">
+							<ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+
+								<li  itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+									<meta content="1" itemprop="position">
+									<a href="index.html" rel="home" aria-label="Главная" itemtype="https://schema.org/Thing" itemprop="item">
+										<span itemprop="name">
+											<span>Головна</span>
+										</span>
+									</a>
+								</li>
+
+
+
+								<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+									<meta content="2" itemprop="position">
+									<span class="is-active" itemtype="https://schema.org/Thing" itemprop="item">
+										<span itemprop="name">Контакти</span>
+									</span>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+					<!-- //Breadcrumbs -->
+
+					<div class="contacts row row-nowrap align-horisontal-between">
+						<div class="contacts-information">
+							<h1 class="title">
+								КОНТАКТИ ФОНДУ
+								{% include '../parts/components/svg/title-arrow.svg' %}
+							</h1>
+
+							<div>
+								<p>ОФІС<br> <a href="tel:+38 (068) 500-88-00">+38 (099) 143-75-90</a></p>
+								<p>ЩОДО ПИТАНЬ СПІВПРАЦІ<br> <a href="tel:+38 (068) 500-88-00">+38 (075) 443-21-86</a></p>
+								<p>ЗВЕРНЕННЯ ВІД ВІЙСЬКОВИХ<br> <a href="tel:+38 (068) 500-88-00">+38 (095) 678-37-93</a></p>
+								<p>АДРЕСА:<br> вул. Володимирська, 24, Київ, Україна, 01001</p>
+							</div>
+
+							{% include '../parts/components/socials.html' %}
+
+
+							<a href="mailto:office@sof.charity" class="email">office@sof.charity</a>
+						</div>
+						<div class="map-wrapper">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18112.94446958227!2d30.509631627367007!3d50.433899713935766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce88e35e395f%3A0xc63774cf5da5a434!2z0KHQvtCx0L7RgCDQodC-0YTRltGPINCa0LjRl9Cy0YHRjNC60LA!5e0!3m2!1sru!2sro!4v1662295730002!5m2!1sru!2sro" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+				<!-- //container -->
+			</section>
+			<!-- //sect partners -->
+
+			{% include '../parts/components/support.html' %}
+
+		</main>
+		<!-- //Main -->
+
+		<!-- Footer -->
+		{% include '../parts/sections/footer.html' %}
+		<!-- //Footer -->
+
+	</div>
+	<!-- //CONTENT WRAPPER -->
+
+	{% include '../parts/scripts.html' %}
+
+</body>
+
+</html>

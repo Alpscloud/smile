@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Посмішка Долі. Міжнародний благодійний фонд</title>
+
+	<!-- Meta tags -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Serhii 'winde' Kuptsov">
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Main file with styles -->
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	</head>
+<body>
+	
+	<!-- CONTENT WRAPPER -->
+	<div class="content__wrapper">
+
+		<!-- Header -->
+		<!-- Preloader -->
+<div class="preloader__wrapper">
+	<div class="preloader">
+		<img src="img/logo.svg" alt="">
+
+		<div class="preloader__dots">
+			<span class="preloader__dot"></span>
+			<span class="preloader__dot"></span>
+			<span class="preloader__dot"></span>
+			<span class="preloader__dot"></span>
+		</div>
+	</div>
+	<div class="preloader__section preloader__section--left"></div> 
+	<div class="preloader__section preloader__section--right"></div>
+</div>		
+<!--// Preloader -->
+<header class="header">
+	<div class="container container-sm-gutters">
+		<div class="row align-vertical-center header__row align-horisontal-between row-nowrap">
+
+			<div class="logo-wrapper">
+				<a href="index.html" class="logo">
+					<img src="img/logo.svg" alt="">
+					<h1 class="logo-title">Посмішка<br>Долі</h1>
+				</a>
+
+				<h2 class="logo-description hidden-mobile-xs">Міжнародний<br>благодійний<br>фонд</h2>
+			</div>
+
+			<div class="header-tablet-tools hidden-desktop visible-pre-tablet ">
+				<div class="row row-nowrap align-vertical-center align-horisontal-end">
+					<button type="button" class="btn hidden-tablet js-open-support-popup-btn">
+						<span>підтримати</span>
+					</button>
+
+					<div class="hidden-tablet">
+						<ul class="socials">
+	<li>
+		<a href="#" target="_blank">
+			<svg  viewBox="0 0 9 18" xmlns="http://www.w3.org/2000/svg">
+				<path  d="M1.85567 9C1.85567 9.09278 1.85567 9.46392 1.85567 9.5567V18H5.47423C5.47423 15.7732 5.47423 13.4536 5.47423 11.2268C5.47423 11.2268 5.47423 9.09278 5.47423 9C5.47423 9 7.79382 9 7.8866 9L8.16495 5.93814H5.56701C5.56701 5.47423 5.56701 5.01031 5.56701 4.54639C5.56701 4.08247 5.56701 3.61856 5.84536 3.43299L8.35052 3.15464V0.0927835C7.79382 0 7.23711 0 6.7732 0C6.2165 0 5.75258 0 5.19588 0C4.26804 0.0927835 3.43299 0.371134 2.87629 0.835052C2.13402 2.13402 1.85567 1.02062 1.85567 5.93814H0V9H1.85567Z" />
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a href="#" target="_blank">
+			<svg  viewBox="0 0 26 18"  xmlns="http://www.w3.org/2000/svg">
+				<path  d="M25.1574 3.25187C24.9816 1.84566 24.0149 0.790996 22.6965 0.527331C22.0813 0.439442 21.4661 0.439442 20.8509 0.351554C18.2142 0.263665 15.5776 0.0878885 12.853 0C9.77692 0.175777 6.70083 0.263665 3.62473 0.439442C2.21852 0.527331 0.98808 1.58199 0.812303 2.98821C0.548638 4.5702 0.460749 6.15219 0.372861 7.82207C0.284972 10.1951 0.460749 12.568 0.812303 14.941C1.07597 16.3473 2.30641 17.4898 3.62473 17.5777C5.82194 17.6656 8.01916 17.8414 10.2164 17.9292C13.9077 18.105 17.599 17.9292 21.2903 17.6656C21.7298 17.6656 22.2571 17.6656 22.6965 17.5777C23.927 17.314 24.9816 16.1715 25.1574 14.941C25.4211 13.1833 25.5968 11.4255 25.5968 9.66773C25.5968 7.47052 25.4211 5.3612 25.1574 3.25187ZM10.1285 12.568C10.1285 10.1072 10.1285 7.73418 10.1285 5.27331C12.4136 6.50375 14.6108 7.73418 16.8959 8.96462C14.6108 10.1072 12.4136 11.3376 10.1285 12.568Z" />
+			</svg>
+
+		</a>
+	</li>
+	<li>
+		<a href="#" target="_blank">
+			<svg viewBox="0 0 19 18"  xmlns="http://www.w3.org/2000/svg">
+				<g >
+					<path  d="M16.3194 0C14.0418 0 11.8377 0 9.56019 0C7.35611 0 5.07856 0 2.87447 0C1.47856 0 0.596924 0.808163 0.596924 2.20408C0.596924 6.68571 0.596924 11.2408 0.596924 15.7224C0.596924 17.0449 1.47856 17.9265 2.80101 17.9265C7.35611 17.9265 11.8377 17.9265 16.3928 17.9265C17.7153 17.9265 18.5969 17.0449 18.5969 15.649C18.5969 11.1673 18.5969 6.68571 18.5969 2.13061C18.5969 0.881633 17.7153 0 16.3194 0ZM13.7479 2.13061C14.4092 2.13061 15.0704 2.13061 15.7316 2.13061C16.1724 2.13061 16.3928 2.35102 16.3928 2.79184C16.3928 3.45306 16.3928 4.11429 16.3928 4.77551C16.3928 5.21633 16.099 5.43673 15.6581 5.5102C15.3643 5.5102 14.9969 5.5102 14.6296 5.5102C14.3357 5.5102 13.9684 5.5102 13.6745 5.5102C13.2337 5.5102 13.0133 5.2898 12.9398 4.84898C12.9398 4.18776 12.9398 3.45306 12.9398 2.79184C13.0867 2.35102 13.3071 2.13061 13.7479 2.13061ZM9.56019 5.58367C11.4704 5.58367 13.0133 7.12653 13.0133 8.96327C13.0133 10.8735 11.5439 12.4163 9.63366 12.4163C7.72345 12.4163 6.25407 10.8735 6.25407 8.96327C6.1806 7.12653 7.72345 5.58367 9.56019 5.58367ZM16.4663 8.1551C16.4663 10.4327 16.4663 12.7102 16.4663 14.9143C16.4663 15.649 16.2459 15.7959 15.5847 15.7959C11.6173 15.7959 7.57652 15.7959 3.60917 15.7959C2.94794 15.7959 2.72754 15.5755 2.72754 14.9878C2.72754 12.6367 2.72754 10.2857 2.72754 7.86122C2.72754 7.78776 2.72754 7.71429 2.72754 7.56735C3.24182 7.56735 3.68264 7.56735 4.19692 7.56735C3.82958 9.69796 4.34386 11.5347 5.88672 13.0041C7.06223 14.0327 8.45815 14.5469 10.001 14.4C12.9398 14.1796 15.7316 11.4612 14.9969 7.56735C15.5112 7.56735 15.952 7.56735 16.4663 7.56735C16.4663 7.78776 16.4663 7.93469 16.4663 8.1551Z" />
+				</g>
+
+			</svg>
+		</a>
+	</li>
+</ul>					</div>
+					<div class="langs hidden-tablet">
+						<ul>
+							<li class="current-lang"><a href="#">Uk</a></li>
+							<li><a href="#">Ru</a></li>
+						</ul>
+					</div>
+
+					<button type="button" class="btn-hamburger js-open-menu-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+				</div>
+			</div>
+			
+
+			<div class="nav-wrapper js-menu">
+
+				<div class="nav-overlay"></div>
+
+
+
+				<div class="nav-content">
+					<div class="hidden-desktop visible-pre-tablet">
+						<div class="logo-wrapper">
+							<a href="index.html" class="logo">
+								<img src="img/logo.svg" alt="">
+								<p class="logo-title">Посмішка<br>Долі</p>
+							</a>
+
+							<p class="logo-description">Міжнародний<br>благодійний<br>фонд</p>
+						</div>
+
+						<button class="btn-close js-close-menu-btn " type="button">
+							<svg  viewBox="0 0 26 25"  xmlns="http://www.w3.org/2000/svg">
+	<path d="M22.9235 24.7736L25.1757 22.5215L14.9532 12.299L24.7737 2.47848L22.5215 0.226344L12.701 10.0468L2.65418 0L0.402016 2.25214L10.4488 12.299L0 22.7478L2.25217 25L12.701 14.5511L22.9235 24.7736Z" />
+</svg>						</button>
+					</div>
+					
+
+					
+
+					<!-- NAV -->
+					<nav class="nav">
+	<ul>
+		<li class="current-menu-item"><a href="page-about.html">Про фонд</a></li>
+		<li><a href="page-projects.html">Ініціативи</a></li>
+		<li><a href="page-blog.html">Новини</a></li>
+		<li><a href="page-contacts.html">Контакти</a></li>
+	</ul>
+</nav>
+					<!-- //NAV -->
+
+					<button type="button" class="btn js-open-support-popup-btn">
+						<span>підтримати</span>
+					</button>
+
+					<ul class="socials">
+	<li>
+		<a href="#" target="_blank">
+			<svg  viewBox="0 0 9 18" xmlns="http://www.w3.org/2000/svg">
+				<path  d="M1.85567 9C1.85567 9.09278 1.85567 9.46392 1.85567 9.5567V18H5.47423C5.47423 15.7732 5.47423 13.4536 5.47423 11.2268C5.47423 11.2268 5.47423 9.09278 5.47423 9C5.47423 9 7.79382 9 7.8866 9L8.16495 5.93814H5.56701C5.56701 5.47423 5.56701 5.01031 5.56701 4.54639C5.56701 4.08247 5.56701 3.61856 5.84536 3.43299L8.35052 3.15464V0.0927835C7.79382 0 7.23711 0 6.7732 0C6.2165 0 5.75258 0 5.19588 0C4.26804 0.0927835 3.43299 0.371134 2.87629 0.835052C2.13402 2.13402 1.85567 1.02062 1.85567 5.93814H0V9H1.85567Z" />
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a href="#" target="_blank">
+			<svg  viewBox="0 0 26 18"  xmlns="http://www.w3.org/2000/svg">
+				<path  d="M25.1574 3.25187C24.9816 1.84566 24.0149 0.790996 22.6965 0.527331C22.0813 0.439442 21.4661 0.439442 20.8509 0.351554C18.2142 0.263665 15.5776 0.0878885 12.853 0C9.77692 0.175777 6.70083 0.263665 3.62473 0.439442C2.21852 0.527331 0.98808 1.58199 0.812303 2.98821C0.548638 4.5702 0.460749 6.15219 0.372861 7.82207C0.284972 10.1951 0.460749 12.568 0.812303 14.941C1.07597 16.3473 2.30641 17.4898 3.62473 17.5777C5.82194 17.6656 8.01916 17.8414 10.2164 17.9292C13.9077 18.105 17.599 17.9292 21.2903 17.6656C21.7298 17.6656 22.2571 17.6656 22.6965 17.5777C23.927 17.314 24.9816 16.1715 25.1574 14.941C25.4211 13.1833 25.5968 11.4255 25.5968 9.66773C25.5968 7.47052 25.4211 5.3612 25.1574 3.25187ZM10.1285 12.568C10.1285 10.1072 10.1285 7.73418 10.1285 5.27331C12.4136 6.50375 14.6108 7.73418 16.8959 8.96462C14.6108 10.1072 12.4136 11.3376 10.1285 12.568Z" />
+			</svg>
+
+		</a>
+	</li>
+	<li>
+		<a href="#" target="_blank">
+			<svg viewBox="0 0 19 18"  xmlns="http://www.w3.org/2000/svg">
+				<g >
+					<path  d="M16.3194 0C14.0418 0 11.8377 0 9.56019 0C7.35611 0 5.07856 0 2.87447 0C1.47856 0 0.596924 0.808163 0.596924 2.20408C0.596924 6.68571 0.596924 11.2408 0.596924 15.7224C0.596924 17.0449 1.47856 17.9265 2.80101 17.9265C7.35611 17.9265 11.8377 17.9265 16.3928 17.9265C17.7153 17.9265 18.5969 17.0449 18.5969 15.649C18.5969 11.1673 18.5969 6.68571 18.5969 2.13061C18.5969 0.881633 17.7153 0 16.3194 0ZM13.7479 2.13061C14.4092 2.13061 15.0704 2.13061 15.7316 2.13061C16.1724 2.13061 16.3928 2.35102 16.3928 2.79184C16.3928 3.45306 16.3928 4.11429 16.3928 4.77551C16.3928 5.21633 16.099 5.43673 15.6581 5.5102C15.3643 5.5102 14.9969 5.5102 14.6296 5.5102C14.3357 5.5102 13.9684 5.5102 13.6745 5.5102C13.2337 5.5102 13.0133 5.2898 12.9398 4.84898C12.9398 4.18776 12.9398 3.45306 12.9398 2.79184C13.0867 2.35102 13.3071 2.13061 13.7479 2.13061ZM9.56019 5.58367C11.4704 5.58367 13.0133 7.12653 13.0133 8.96327C13.0133 10.8735 11.5439 12.4163 9.63366 12.4163C7.72345 12.4163 6.25407 10.8735 6.25407 8.96327C6.1806 7.12653 7.72345 5.58367 9.56019 5.58367ZM16.4663 8.1551C16.4663 10.4327 16.4663 12.7102 16.4663 14.9143C16.4663 15.649 16.2459 15.7959 15.5847 15.7959C11.6173 15.7959 7.57652 15.7959 3.60917 15.7959C2.94794 15.7959 2.72754 15.5755 2.72754 14.9878C2.72754 12.6367 2.72754 10.2857 2.72754 7.86122C2.72754 7.78776 2.72754 7.71429 2.72754 7.56735C3.24182 7.56735 3.68264 7.56735 4.19692 7.56735C3.82958 9.69796 4.34386 11.5347 5.88672 13.0041C7.06223 14.0327 8.45815 14.5469 10.001 14.4C12.9398 14.1796 15.7316 11.4612 14.9969 7.56735C15.5112 7.56735 15.952 7.56735 16.4663 7.56735C16.4663 7.78776 16.4663 7.93469 16.4663 8.1551Z" />
+				</g>
+
+			</svg>
+		</a>
+	</li>
+</ul>					
+
+					<div class="langs hidden-pre-tablet">
+						<ul>
+							<li class="current-lang"><a href="#">Uk</a></li>
+							<li><a href="#">Ru</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+</header>
+
+		<!-- //Header -->
+
+		<!-- Main -->
+		<main class="main page-blog">
+
+			<section class="sect__promo gutter-bottom">
+
+				<!-- Breadcrumbs -->
+				<div class="breadcrumbs container">
+					<nav  aria-label="Breadcrumbs" itemprop="breadcrumb">
+						<ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+
+							<li  itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+								<meta content="1" itemprop="position">
+								<a href="index.html" rel="home" aria-label="Главная" itemtype="https://schema.org/Thing" itemprop="item">
+									<span itemprop="name">
+										<span>Головна</span>
+									</span>
+								</a>
+							</li>
+
+
+
+							<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+								<meta content="2" itemprop="position">
+								<span class="is-active" itemtype="https://schema.org/Thing" itemprop="item">
+									<span itemprop="name">Новини</span>
+								</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<!-- //Breadcrumbs -->
+
+
+				<div class="container container-sm-gutters">
+
+					<div class="promo-slider promo-slider__inner-page">
+
+						<h1 class="title title-absolute">
+							Новини
+							<svg  viewBox="0 0 64 16"  xmlns="http://www.w3.org/2000/svg">
+	<path d="M63.7071 8.7071C64.0976 8.31658 64.0976 7.68341 63.7071 7.29289L57.3431 0.928927C56.9526 0.538403 56.3195 0.538403 55.9289 0.928927C55.5384 1.31945 55.5384 1.95262 55.9289 2.34314L61.5858 7.99999L55.9289 13.6568C55.5384 14.0474 55.5384 14.6805 55.9289 15.0711C56.3195 15.4616 56.9526 15.4616 57.3431 15.0711L63.7071 8.7071ZM8.74228e-08 9L63 8.99999L63 6.99999L-8.74228e-08 7L8.74228e-08 9Z" />
+</svg>
+						</h1>
+
+						<div class="swiper-container js-promo-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<article class="promo-slide">
+										<div class="row align-horisontal-between row-nowrap">
+											<div class="promo-slide__content">
+												<div class="promo-slide__text">
+													<h2>
+														<a href="page-article.html"><strong>Екзистенційна війна для Росії?</strong><br> Огляд західних медіа</a>
+													</h2>
+													<p>Всі деталі майбутньої взаємодії сторони наразі не розкривають. Однак партнери дійшли згоди щодо впровадження кращих практик та міжнародних стандартів для розвитку співробітництва та залучення інших представників до такої співпраці.</p>
+												</div>
+												<div>
+													<a href="page-article.html" class="btn btn-secondary">
+														<span>Читати</span>
+													</a>
+												</div>
+											</div>
+											<a href="page-article.html" class="promo-slide__thumbnail thumbnail">
+												<img src="img/promo/1.jpg" alt="">
+											</a>
+										</div>
+									</article>
+								</div>
+								<!-- //slide -->
+
+								<div class="swiper-slide">
+									<article class="promo-slide">
+										<div class="row align-horisontal-between row-nowrap">
+											<div class="promo-slide__content">
+												<div class="promo-slide__text">
+													<h2>
+														<a href="page-article.html"><strong>Допомога</strong><br> Для всіх постраждалих</a>
+													</h2>
+													<p>Всі деталі майбутньої взаємодії сторони наразі не розкривають. Однак партнери дійшли згоди щодо впровадження кращих</p>
+												</div>
+												<div>
+													<a href="page-article.html" class="btn btn-secondary">
+														<span>Читати</span>
+													</a>
+												</div>
+											</div>
+
+											<a href="page-article.html" class="promo-slide__thumbnail thumbnail">
+												<img src="img/promo/2.jpg" alt="">
+											</a>
+
+
+										</div>
+									</article>
+								</div>
+								<!-- //slide -->
+
+								<div class="swiper-slide">
+									<article class="promo-slide">
+										<div class="row align-horisontal-between row-nowrap">
+											<div class="promo-slide__content">
+												<div class="promo-slide__text">
+													<h2>
+														<a href="page-article.html"><strong>Екзистенційна війна для Росії?</strong><br> Огляд західних медіа</a>
+													</h2>
+													<p>Всі деталі майбутньої взаємодії сторони наразі не розкривають. Однак партнери дійшли згоди щодо впровадження кращих практик та міжнародних стандартів для розвитку співробітництва та залучення інших представників до такої співпраці.</p>
+												</div>
+												<div>
+													<a href="page-article.html" class="btn btn-secondary">
+														<span>Читати</span>
+													</a>
+												</div>
+											</div>
+
+											<a href="page-article.html" class="promo-slide__thumbnail thumbnail">
+												<img src="img/promo/3.jpg" alt="">
+											</a>
+
+										</div>
+									</article>
+								</div>
+								<!-- //slide -->
+							</div>
+						</div>
+
+						<div class="slider-pagination js-promo-slider-pagination"></div>
+					</div>
+
+				</div>
+				<!-- //container -->
+			</section>
+			<!-- //sect promo -->
+
+			<section class="sect__articles-cards gutter-bottom">
+
+				<div class="container">
+
+					<div class="categories row align-horisontal-start row-nowrap">
+						<div class="categories-description">
+							<h2>категорії новин:</h2>
+						</div>
+					
+
+						<ul class="categories-list">
+							<li><span class="is-active">Всі</span></li>
+							<li><a href="#">допомога зсу</a></li>
+							<li><a href="#">медична допомога</a></li>
+							<li><a href="#">освіта</a></li>
+							<li><a href="#">гуманітарна підтримка</a></li>
+							<li><a href="#">загальні новини</a></li>
+							<li><a href="#">фонд у смі</a></li>
+						</ul>
+					</div>
+
+					<div class="articles-cards row align-horisontal-start">
+						<div class="article-card__wrapper col-w-25">
+	<article class="article-card">
+		<a href="page-article.html" class="thumbnail article-card__thumbnail">
+			<img src="img/promo/1.jpg" alt="">
+		</a>
+		<div class="article-card__content">
+			<h3 class="article-card__title">
+				<a href="page-article.html">«Скоротіть війну — відсилайте HIMARS!». Огляд західних медіа</a>
+			</h3>
+			<p class="article-date">29 липня 2022, 16:40</p>
+		</div>
+	</article>
+</div>
+						<!-- //article card -->
+						<div class="article-card__wrapper col-w-25">
+	<article class="article-card">
+		<a href="page-article.html" class="thumbnail article-card__thumbnail">
+			<img src="img/promo/1.jpg" alt="">
+		</a>
+		<div class="article-card__content">
+			<h3 class="article-card__title">
+				<a href="page-article.html">«Скоротіть війну — відсилайте HIMARS!». Огляд західних медіа</a>
+			</h3>
+			<p class="article-date">29 липня 2022, 16:40</p>
+		</div>
+	</article>
+</div>
+						<!-- //article card -->
+						<div class="article-card__wrapper col-w-25">
+	<article class="article-card">
+		<a href="page-article.html" class="thumbnail article-card__thumbnail">
+			<img src="img/promo/1.jpg" alt="">
+		</a>
+		<div class="article-card__content">
+			<h3 class="article-card__title">
+				<a href="page-article.html">«Скоротіть війну — відсилайте HIMARS!». Огляд західних медіа</a>
+			</h3>
+			<p class="article-date">29 липня 2022, 16:40</p>
+		</div>
+	</article>
+</div>
+						<!-- //article card -->
+						<div class="article-card__wrapper col-w-25">
+	<article class="article-card">
+		<a href="page-article.html" class="thumbnail article-card__thumbnail">
+			<img src="img/promo/1.jpg" alt="">
+		</a>
+		<div class="article-card__content">
+			<h3 class="article-card__title">
+				<a href="page-article.html">«Скоротіть війну — відсилайте HIMARS!». Огляд західних медіа</a>
+			</h3>
+			<p class="article-date">29 липня 2022, 16:40</p>
+		</div>
+	</article>
+</div>
+						<!-- //article card -->
+						<div class="article-card__wrapper col-w-25">
+	<article class="article-card">
+		<a href="page-article.html" class="thumbnail article-card__thumbnail">
+			<img src="img/promo/1.jpg" alt="">
+		</a>
+		<div class="article-card__content">
+			<h3 class="article-card__title">
+				<a href="page-article.html">«Скоротіть війну — відсилайте HIMARS!». Огляд західних медіа</a>
+			</h3>
+			<p class="article-date">29 липня 2022, 16:40</p>
+		</div>
+	</article>
+</div>
+						<!-- //article card -->
+						<div class="article-card__wrapper col-w-25">
+	<article class="article-card">
+		<a href="page-article.html" class="thumbnail article-card__thumbnail">
+			<img src="img/promo/1.jpg" alt="">
+		</a>
+		<div class="article-card__content">
+			<h3 class="article-card__title">
+				<a href="page-article.html">«Скоротіть війну — відсилайте HIMARS!». Огляд західних медіа</a>
+			</h3>
+			<p class="article-date">29 липня 2022, 16:40</p>
+		</div>
+	</article>
+</div>
+						<!-- //article card -->
+						<div class="article-card__wrapper col-w-25">
+	<article class="article-card">
+		<a href="page-article.html" class="thumbnail article-card__thumbnail">
+			<img src="img/promo/1.jpg" alt="">
+		</a>
+		<div class="article-card__content">
+			<h3 class="article-card__title">
+				<a href="page-article.html">«Скоротіть війну — відсилайте HIMARS!». Огляд західних медіа</a>
+			</h3>
+			<p class="article-date">29 липня 2022, 16:40</p>
+		</div>
+	</article>
+</div>
+						<!-- //article card -->
+						<div class="article-card__wrapper col-w-25">
+	<article class="article-card">
+		<a href="page-article.html" class="thumbnail article-card__thumbnail">
+			<img src="img/promo/1.jpg" alt="">
+		</a>
+		<div class="article-card__content">
+			<h3 class="article-card__title">
+				<a href="page-article.html">«Скоротіть війну — відсилайте HIMARS!». Огляд західних медіа</a>
+			</h3>
+			<p class="article-date">29 липня 2022, 16:40</p>
+		</div>
+	</article>
+</div>
+						<!-- //article card -->
+					</div>
+
+					<nav class="pagination">
+						<ul>
+							<li>
+								<a href="#" class="pagination-link pagination-link__arrow">
+									<svg  viewBox="0 0 26 24"  xmlns="http://www.w3.org/2000/svg">
+										<path d="M25.0607 13.0607C25.6464 12.4749 25.6464 11.5251 25.0607 10.9393L15.5147 1.3934C14.9289 0.807611 13.9792 0.807611 13.3934 1.3934C12.8076 1.97919 12.8076 2.92893 13.3934 3.51472L21.8787 12L13.3934 20.4853C12.8076 21.0711 12.8076 22.0208 13.3934 22.6066C13.9792 23.1924 14.9289 23.1924 15.5147 22.6066L25.0607 13.0607ZM0 13.5H24V10.5H0V13.5Z" />
+									</svg>
+								</a>
+							</li>
+							<li><span class=" pagination-link is-active">1</span></li>
+							<li><a href="#" class="pagination-link">2</a></li>
+							<li><a href="#" class="pagination-link">3</a></li>
+							<li>
+								<a href="#" class="pagination-link pagination-link__arrow">
+									<svg  viewBox="0 0 26 24"  xmlns="http://www.w3.org/2000/svg">
+										<path d="M25.0607 13.0607C25.6464 12.4749 25.6464 11.5251 25.0607 10.9393L15.5147 1.3934C14.9289 0.807611 13.9792 0.807611 13.3934 1.3934C12.8076 1.97919 12.8076 2.92893 13.3934 3.51472L21.8787 12L13.3934 20.4853C12.8076 21.0711 12.8076 22.0208 13.3934 22.6066C13.9792 23.1924 14.9289 23.1924 15.5147 22.6066L25.0607 13.0607ZM0 13.5H24V10.5H0V13.5Z" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- //container -->
+			</section>
+			<!-- //sect article -->
+
+			<div class="support">
+	<div class="container">
+		<div class="row align-vertical-center align-horisontal-center row-nowrap">
+			<button type="button" class="btn js-open-support-popup-btn">
+				<span>підтримати</span>
+			</button>
+			<p class="support-text">Будемо раді<br> вашій підтримці</p>
+		</div>
+	</div>
+</div>
+
+
+		</main>
+		<!-- //Main -->
+
+		<!-- Footer -->
+		<footer class="footer">
+	<div class="container">
+		
+
+		<div class="footer-content">
+			<div class="row align-horisontal-between">
+				<div class="footer-navs">
+					<div class="row footer-navs__row row-gutters row-nowrap">
+						<nav class="footer-nav col-gutters">
+							<p class="footer-nav__title">Інформація</p>
+							<ul>
+								<li><a href="page-about.html">Про фонд</a></li>
+								<li><a href="page-mission.html">Місія та цінності</a></li>
+								<li><a href="page-history.html">Історія</a></li>
+								<li><a href="page-team.html">Команда</a></li>
+								<li><a href="page-patners.html">Партнери</a></li>
+							</ul>
+						</nav>
+
+						<nav class="footer-nav col-gutters">
+							<p class="footer-nav__title">Ініціативи</p>
+							<ul>
+								<li><a href="page-projects.html">Допомога ЗСУ</a></li>
+								<li><a href="page-projects.html">Допомога освітнім закладам</a></li>
+								<li><a href="page-projects.html">Гуманітарна допомога</a></li>
+								<li><a href="page-projects.html">Медична гуманітарна допомога</a></li>
+							</ul>
+						</nav>
+
+						<nav class="footer-nav col-gutters">
+							<p class="footer-nav__title">Додатково</p>
+							<ul>
+								<li><a href="page-contacts.html">Контакти</a></li>
+								<li><a href="#">Звітність</a></li>
+								<li><a href="#">Договір оферти</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="subscribe">
+
+					<div class="subscribe-text">
+						<p class="block-title">підпишіться на нас</p>
+						<p>Ми надсилатимемо вам найважливіші матеріали та звіти. </p>
+					</div>
+
+					<div class="subscribe-form">
+						<form>
+							<fieldset class="subscribe-input__group">
+								<input type="email" name="email" class="subscribe-input" placeholder="Ваш Е-mail" required>
+								<span></span>
+								<button class="btn-submit" type="submit">
+									<svg  viewBox="0 0 26 24"  xmlns="http://www.w3.org/2000/svg">
+										<path d="M25.0607 13.0607C25.6464 12.4749 25.6464 11.5251 25.0607 10.9393L15.5147 1.3934C14.9289 0.807611 13.9792 0.807611 13.3934 1.3934C12.8076 1.97919 12.8076 2.92893 13.3934 3.51472L21.8787 12L13.3934 20.4853C12.8076 21.0711 12.8076 22.0208 13.3934 22.6066C13.9792 23.1924 14.9289 23.1924 15.5147 22.6066L25.0607 13.0607ZM0 13.5H24V10.5H0V13.5Z" />
+									</svg>
+								</button>
+							</fieldset>
+							<p class="subscribe-form__notice">Натискаючи на кнопку, ви погоджуєтеся на обробку персональних даних і погоджуєтесь з політикою конфіденційності.</p>
+						</form>
+					</div>
+
+					
+					<div class="subscribe-success">
+
+
+						<svg class="subscribe-success__ic" viewBox="0 0 140 140"  xmlns="http://www.w3.org/2000/svg">
+							<circle cx="70" cy="70" r="68.5" />
+							<path d="M39 79.0532L63.566 107H69.0252L101 33"/>
+						</svg>
+
+						<p class="block-title">Дякуємо!</p>
+						<p>Ваша заявка на підписку успішно надіслана</p>
+						
+						<button class="btn-close js-close-success-btn" type="button">
+							<svg  viewBox="0 0 26 25"  xmlns="http://www.w3.org/2000/svg">
+	<path d="M22.9235 24.7736L25.1757 22.5215L14.9532 12.299L24.7737 2.47848L22.5215 0.226344L12.701 10.0468L2.65418 0L0.402016 2.25214L10.4488 12.299L0 22.7478L2.25217 25L12.701 14.5511L22.9235 24.7736Z" />
+</svg>						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //container -->
+</footer>
+
+
+<a href="#" class="btn btn-secondary btn-help">
+	<span>звернутись<br> по допомогу</span>
+</a>
+
+<!-- Popup -->
+<div class="popup js-popup js-support-popup">
+	<div class="popup__overflow">
+		<div class="popup__body text-center">
+			<!-- Popup content-->
+			<div class="popup__content">
+				<div class="row align-horisontal-between align-vertical-center row-nowrap">
+					<h2 class="title">
+						ОБЕРІТЬ НАПРЯМОК ДОПОМОГИ
+						<svg  viewBox="0 0 64 16"  xmlns="http://www.w3.org/2000/svg">
+	<path d="M63.7071 8.7071C64.0976 8.31658 64.0976 7.68341 63.7071 7.29289L57.3431 0.928927C56.9526 0.538403 56.3195 0.538403 55.9289 0.928927C55.5384 1.31945 55.5384 1.95262 55.9289 2.34314L61.5858 7.99999L55.9289 13.6568C55.5384 14.0474 55.5384 14.6805 55.9289 15.0711C56.3195 15.4616 56.9526 15.4616 57.3431 15.0711L63.7071 8.7071ZM8.74228e-08 9L63 8.99999L63 6.99999L-8.74228e-08 7L8.74228e-08 9Z" />
+</svg>
+					</h2>
+					<button class="btn-close js-close-popup-btn" type="button">
+						<svg  viewBox="0 0 26 25"  xmlns="http://www.w3.org/2000/svg">
+	<path d="M22.9235 24.7736L25.1757 22.5215L14.9532 12.299L24.7737 2.47848L22.5215 0.226344L12.701 10.0468L2.65418 0L0.402016 2.25214L10.4488 12.299L0 22.7478L2.25217 25L12.701 14.5511L22.9235 24.7736Z" />
+</svg>
+					</button>
+				</div>
+
+				<ul class="categories-projects">
+					<li>
+						<a href="#">
+							<img src="img/services/1-accent.svg" alt="">
+							ЗСУ
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/services/2-accent.svg" alt="">
+							<span>Гуманітарна</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/services/3-accent.svg" alt="">
+							<span>Освіта</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/services/4-accent.svg" alt="">
+							<span>Медицина</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- //Popup content-->
+		</div>
+	</div>
+</div>
+<!-- //Popup -->
+		<!-- //Footer -->
+
+	</div>
+	<!-- //CONTENT WRAPPER -->
+
+	<!-- jQuery IF NEEDED-->
+<script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<!-- All libs scripts -->
+<script src="js/libs.min.js"></script>
+<!-- Main file with scripts -->
+<script src="js/common.min.js"></script>
+
+</body>
+
+</html>

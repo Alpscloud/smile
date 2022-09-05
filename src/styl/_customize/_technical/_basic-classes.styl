@@ -31,6 +31,7 @@
 	text-transform uppercase
 	font 1.5em $ExBold
 	margin-bottom 55px
+	color $basic-black-color
 	svg
 		display block
 		width 64px
@@ -38,6 +39,13 @@
 		fill $accent-color
 		flex none
 		margin-left 70px
+		
+	&-absolute
+		padding-left 60px
+		position absolute
+		top 0
+		left 0
+		z-index 2
 		
 .block-title
 	font 1.5em $ExBold
@@ -125,36 +133,92 @@
 	
 
 .content
-	*
-		&:last-child
-			margin-bottom 0
+	*:last-child
+		margin-bottom 0 !important
+	*:first-child
+		margin-top 0 !important
 			
 	h2,h3,h3,h4,h5,h6
-		line-height 1
-		font-family $Bold
+		font-family $Med
+		
+	h4,h5,h6
+		margin-bottom 30px
+		
+	h2
+		font-size 32px
+		color $accent-color
+		margin-bottom 30px
+		
+	h3
+		font-size 26px
+		margin-bottom 30px
+		color $accent-color
+		
+	hr
+		display block
+		width 100%
+		height 2px
+		background-color #e3e3e3
+		opacity .25
+		margin 30px 0
+		
+	a
+		color $accent-color
+		&:hover
+			color $secondary-color
+			
+	i, em
+		font-style italic
+		
+	p
+		margin-bottom 30px
+		
+	img
+		display block
+		width 100%
+		margin 60px auto
+		
+		
+	p, h2,h3,h4,h5,h6,ul,ol,blockquote
+		max-width 860px
+		
 		
 	strong, b
 		font-family $Bold
 		
+	p + ul,
+	p + ol,
+	h2 + ul,
+	h2 + ol,
+	h3 + ul,
+	h3 + ol
+		margin-top -15px
+		
 
 	ul, ol
+		padding-left 15px
+		margin-bottom 30px
 		li
 			display block
 			position relative
-			margin-bottom 10px
+			margin-bottom 20px
 			
 			&:last-child
 				margin-bottom 0
 				
 	ul
 		li
+			padding-left 16px
 			&:before
 				pseudo()
-				width 4px
-				height 4px
+				width 6px
+				height 6px
 				border-radius 50%
 				margin-right 4px
-				background-color $text-color
+				background-color $accent-color
+				position absolute
+				left 4px
+				top 8px
 				
 	ol
 		counter-reset list
@@ -164,4 +228,23 @@
 				content counter(list) ". "
 				display inline-block
 				margin-right 4px
+				font-family $ExBold
 				
+	blockquote
+		display block
+		position relative
+		font 24px $Med
+		font-style italic
+		margin 50px 0
+		padding-left 40px
+		&:before 
+			pseudo()
+			position absolute
+			top 0
+			left 0
+			width 30px
+			height 30px
+			background url('../img/icons/svg/quote.svg') 50% no-repeat / contain
+
+.hidden-desktop
+	display none 

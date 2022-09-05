@@ -1,0 +1,87 @@
+
+
+
+		
+.categories
+	margin-bottom 70px
+	align-vertical start
+	&-description
+		max-width 470px
+		margin-right 26px
+		h2,h3
+			text-transform uppercase
+			font 32px $ExBold
+			line-height 1.25
+			margin-bottom 24px
+			&:last-child
+				margin-bottom 0
+		
+	&-list
+		padding-top 6px
+		li
+			display inline-block
+			margin 0 40px 18px 0
+		a,
+		span
+			text-transform uppercase
+			font 16px $Reg
+			color #424241
+			display inline-block
+			position relative
+			&:before
+				content '#'
+			&:hover
+				color $accent-color
+				
+		.is-active
+			color $basic-black-color
+			position relative
+			font-family $Med
+			&:hover
+				color $basic-black-color
+			
+.page-blog
+	.categories-description
+		h2,h3
+			font 21px $ExBold
+			color $accent-color
+	
+	.support
+		padding-top 0
+// Article
+.sect__article
+	.container
+		max-width 1130px
+		
+.article
+	&-title
+		text-transform uppercase
+		font 36px $Med
+		line-height 53px
+		color $basic-black-color
+		margin-bottom 15px
+		
+	&-header
+		margin-bottom 60px
+		color $light-text-color
+		text-transform uppercase
+		font-size 14px
+		max-width 760px
+		.title
+			margin-bottom 25px
+			&:last-child
+				margin-bottom 0
+		
+	&-data
+		display flex
+		flex-wrap nowrap
+		
+		p
+			margin-right 40px
+			&:last-child
+				margin-right 0
+				
+
+.sect__another-articles
+	.articles-cards
+		margin-bottom -110px

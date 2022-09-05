@@ -1,0 +1,120 @@
+{% include '../parts/head.html' %}
+<body>
+	
+	<!-- CONTENT WRAPPER -->
+	<div class="content__wrapper">
+
+		<!-- Header -->
+		{% include '../parts/sections/header.html' %}
+		<!-- //Header -->
+
+		<!-- Main -->
+		<main class="main page-with-sidebar page-inner page-article">
+
+			<section class="sect__page">
+
+				<!-- Breadcrumbs -->
+				<div class="breadcrumbs container">
+					<nav  aria-label="Breadcrumbs" itemprop="breadcrumb">
+						<ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+
+							<li  itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+								<meta content="1" itemprop="position">
+								<a href="index.html" rel="home" aria-label="Главная" itemtype="https://schema.org/Thing" itemprop="item">
+									<span itemprop="name">
+										<span>Головна</span>
+									</span>
+								</a>
+							</li>
+
+
+
+							<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+								<meta content="2" itemprop="position">
+								<span class="is-active" itemtype="https://schema.org/Thing" itemprop="item">
+									<span itemprop="name">Партнери</span>
+								</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- //Breadcrumbs -->
+
+				<div class="container">
+
+					<div class="page-content gutter-bottom">
+						{% include '../parts/sections/aside.html' %}
+
+						<article class="article">
+							<header class="article-header">
+
+								<h1 class="title">
+									Партнери
+									{% include '../parts/components/svg/title-arrow.svg' %}
+								</h1>
+
+							</header>
+
+							<div class="content">
+								<p>Компетентної допомоги армії. З 2014 року наша ключова мета — зробити Збройні Сили ефективнішими, зберегти життя військових та системно протидіяти ворогові. Від початку повномасштабного вторгнення у лютому 2022 року ми збільшили допомогу армії в рази і підтримуємо захисників України, які змінили своє звичне життя та вийшли на лінію оборони.</p>
+							</div>
+
+							<div class="partners row align-horisontal-between row-gutters">
+								<div class="partner col-gutters"><img src="img/partners/1.png" alt=""></div>
+								<div class="partner col-gutters"><img src="img/partners/2.png" alt=""></div>
+								<div class="partner col-gutters"><img src="img/partners/3.png" alt=""></div>
+								<div class="partner col-gutters"><img src="img/partners/4.png" alt=""></div>
+								<div class="partner col-gutters"><img src="img/partners/5.png" alt=""></div>
+								<div class="partner col-gutters"><img src="img/partners/5.png" alt=""></div>
+							</div>
+						</article>
+					</div>
+
+				</div>
+				<!-- //container -->
+			</section>
+			<!-- //article -->
+
+			{% include '../parts/components/support.html' %}
+
+			<section class="sect__another-articles gutter-bottom">
+				<h2 class="title container">
+					Ще по цій темі
+					{% include '../parts/components/svg/title-arrow.svg' %}
+				</h2>
+
+				<div class="container">
+					<div class="articles-cards row align-horisontal-start">
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+					</div>
+				</div>
+				<!-- //container -->
+			</section>
+
+			
+
+
+
+
+		</main>
+		<!-- //Main -->
+
+		<!-- Footer -->
+		{% include '../parts/sections/footer.html' %}
+		<!-- //Footer -->
+
+	</div>
+	<!-- //CONTENT WRAPPER -->
+
+	{% include '../parts/scripts.html' %}
+
+</body>
+
+</html>

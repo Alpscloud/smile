@@ -1,12 +1,6 @@
 <footer class="footer">
 	<div class="container">
-		<div class="support row align-vertical-center align-horisontal-center row-nowrap">
-			<a href="#" class="btn">
-				<span>підтримати</span>
-			</a>
-
-			<p class="support-text">Будемо раді<br> вашій підтримці</p>
-		</div>
+		
 
 		<div class="footer-content">
 			<div class="row align-horisontal-between">
@@ -15,28 +9,28 @@
 						<nav class="footer-nav col-gutters">
 							<p class="footer-nav__title">Інформація</p>
 							<ul>
-								<li><a href="#">Про фонд</a></li>
-								<li><a href="#">Місія та цінності</a></li>
-								<li><a href="#">Історія</a></li>
-								<li><a href="#">Команда</a></li>
-								<li><a href="#">Партнери</a></li>
+								<li><a href="page-about.html">Про фонд</a></li>
+								<li><a href="page-mission.html">Місія та цінності</a></li>
+								<li><a href="page-history.html">Історія</a></li>
+								<li><a href="page-team.html">Команда</a></li>
+								<li><a href="page-patners.html">Партнери</a></li>
 							</ul>
 						</nav>
 
 						<nav class="footer-nav col-gutters">
 							<p class="footer-nav__title">Ініціативи</p>
 							<ul>
-								<li><a href="#">Допомога ЗСУ</a></li>
-								<li><a href="#">Допомога освітнім закладам</a></li>
-								<li><a href="#">Гуманітарна допомога</a></li>
-								<li><a href="#">Медична гуманітарна допомога</a></li>
+								<li><a href="page-projects.html">Допомога ЗСУ</a></li>
+								<li><a href="page-projects.html">Допомога освітнім закладам</a></li>
+								<li><a href="page-projects.html">Гуманітарна допомога</a></li>
+								<li><a href="page-projects.html">Медична гуманітарна допомога</a></li>
 							</ul>
 						</nav>
 
 						<nav class="footer-nav col-gutters">
 							<p class="footer-nav__title">Додатково</p>
 							<ul>
-								<li><a href="#">Контакти</a></li>
+								<li><a href="page-contacts.html">Контакти</a></li>
 								<li><a href="#">Звітність</a></li>
 								<li><a href="#">Договір оферти</a></li>
 							</ul>
@@ -78,11 +72,7 @@
 						<p>Ваша заявка на підписку успішно надіслана</p>
 						
 						<button class="btn-close js-close-success-btn" type="button">
-
-							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 212.982 212.982" style="enable-background:new 0 0 212.982 212.982;" xml:space="preserve">
-								<path  d="M131.804,106.491l75.936-75.936c6.99-6.99,6.99-18.323,0-25.312 c-6.99-6.99-18.322-6.99-25.312,0l-75.937,75.937L30.554,5.242c-6.99-6.99-18.322-6.99-25.312,0c-6.989,6.99-6.989,18.323,0,25.312 l75.937,75.936L5.242,182.427c-6.989,6.99-6.989,18.323,0,25.312c6.99,6.99,18.322,6.99,25.312,0l75.937-75.937l75.937,75.937 c6.989,6.99,18.322,6.99,25.312,0c6.99-6.99,6.99-18.322,0-25.312L131.804,106.491z"/>
-							</svg>
-
+							{% include '../components/svg/close.svg' %}
 						</button>
 					</div>
 				</div>
@@ -96,3 +86,5 @@
 <a href="#" class="btn btn-secondary btn-help">
 	<span>звернутись<br> по допомогу</span>
 </a>
+
+{% include '../components/popup.html' %}

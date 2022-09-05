@@ -1,0 +1,161 @@
+{% include '../parts/head.html' %}
+<body>
+	
+	<!-- CONTENT WRAPPER -->
+	<div class="content__wrapper">
+
+		<!-- Header -->
+		{% include '../parts/sections/header.html' %}
+		<!-- //Header -->
+
+		<!-- Main -->
+		<main class="main page-with-sidebar page-inner page-article">
+
+			<section class="sect__page">
+
+				<!-- Breadcrumbs -->
+				<div class="breadcrumbs container">
+					<nav  aria-label="Breadcrumbs" itemprop="breadcrumb">
+						<ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+
+							<li  itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+								<meta content="1" itemprop="position">
+								<a href="index.html" rel="home" aria-label="Главная" itemtype="https://schema.org/Thing" itemprop="item">
+									<span itemprop="name">
+										<span>Головна</span>
+									</span>
+								</a>
+							</li>
+
+
+
+							<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+								<meta content="2" itemprop="position">
+								<span class="is-active" itemtype="https://schema.org/Thing" itemprop="item">
+									<span itemprop="name">Команда</span>
+								</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- //Breadcrumbs -->
+
+				<div class="container">
+
+					<div class="page-content gutter-bottom">
+						{% include '../parts/sections/aside.html' %}
+
+						<article class="article">
+							<header class="article-header">
+
+								<h1 class="title">
+									Команда
+									{% include '../parts/components/svg/title-arrow.svg' %}
+								</h1>
+
+							</header>
+
+							<div class="content">
+								<p>Ми працюємо, щоб зробити Збройні сили України ефективнішими. Купуємо техніку, що допомагає зберегти життя наших військових і робить дії армійців у протидії ворогові точнішими. Реалізуємо спрямовані на реінтеграцію ветеранів проєкти та впливаємо на суспільні процеси, щоб посилити обороноздатність країни. Розробляємо аналітику в оборонній сфері, сприяємо розбудові Сил територіальної оборони ЗСУ.</p>
+							</div>
+
+							<div class="team row align-horisontal-start row-gutters">
+								<div class="team-member__wrapper col-w-33 col-gutters">
+									<div class="team-member">
+										<img src="img/avatar.jpg" alt="">
+										<h3 class="team-member__name">АНДРІЙ РИМАРУК</h3>
+										<p>керівник військового відділу</p>
+									</div>
+								</div>
+
+								<div class="team-member__wrapper col-w-33 col-gutters">
+									<div class="team-member">
+										<img src="img/avatar.jpg" alt="">
+										<h3 class="team-member__name">АНДРІЙ РИМАРУК</h3>
+										<p>керівник військового відділу</p>
+									</div>
+								</div>
+
+								<div class="team-member__wrapper col-w-33 col-gutters">
+									<div class="team-member">
+										<img src="img/avatar.jpg" alt="">
+										<h3 class="team-member__name">АНДРІЙ РИМАРУК</h3>
+										<p>керівник військового відділу</p>
+									</div>
+								</div>
+
+								<div class="team-member__wrapper col-w-33 col-gutters">
+									<div class="team-member">
+										<img src="img/avatar.jpg" alt="">
+										<h3 class="team-member__name">АНДРІЙ РИМАРУК</h3>
+										<p>керівник військового відділу</p>
+									</div>
+								</div>
+
+								<div class="team-member__wrapper col-w-33 col-gutters">
+									<div class="team-member">
+										<img src="img/avatar.jpg" alt="">
+										<h3 class="team-member__name">АНДРІЙ РИМАРУК</h3>
+										<p>керівник військового відділу</p>
+									</div>
+								</div>
+
+								<div class="team-member__wrapper col-w-33 col-gutters">
+									<div class="team-member">
+										<img src="img/avatar.jpg" alt="">
+										<h3 class="team-member__name">АНДРІЙ РИМАРУК</h3>
+										<p>керівник військового відділу</p>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+
+				</div>
+				<!-- //container -->
+			</section>
+			<!-- //article -->
+
+			{% include '../parts/components/support.html' %}
+
+			<section class="sect__another-articles gutter-bottom">
+				<h2 class="title container">
+					Ще по цій темі
+					{% include '../parts/components/svg/title-arrow.svg' %}
+				</h2>
+
+				<div class="container">
+					<div class="articles-cards row align-horisontal-start">
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+						{% include '../parts/components/article-card.html' %}
+						<!-- //article card -->
+					</div>
+				</div>
+				<!-- //container -->
+			</section>
+
+			
+
+
+
+
+		</main>
+		<!-- //Main -->
+
+		<!-- Footer -->
+		{% include '../parts/sections/footer.html' %}
+		<!-- //Footer -->
+
+	</div>
+	<!-- //CONTENT WRAPPER -->
+
+	{% include '../parts/scripts.html' %}
+
+</body>
+
+</html>
